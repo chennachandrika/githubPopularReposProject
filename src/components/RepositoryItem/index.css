@@ -1,0 +1,36 @@
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8f8ff;
+  margin: 10px;
+  width: 100%;
+}
+.repo-brief-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.repo-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .repo-item {
+    width: 20vw;
+  }
+}
+.repo-avatar-img {
+  align-self: center;
+  width: 70px;
+}
+.icons {
+  width: 20px;
+  margin-right: 10px;
+}
